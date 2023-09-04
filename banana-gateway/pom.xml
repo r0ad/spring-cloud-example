@@ -46,10 +46,10 @@
         </dependency>
 
         <!-- 工具包依赖 -->
-        <!--<dependency>
+        <dependency>
             <groupId>io.rainforest</groupId>
             <artifactId>banana-common-core</artifactId>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-crypto</artifactId>
