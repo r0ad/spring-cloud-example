@@ -1,0 +1,9 @@
+spring.application.name: client2
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+server:
+  port: 10102
+  servlet:
+    context-path: /client2
