@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="修改配置中心为scz">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="增加client1 client2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +62,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ws-research\sca-boot" />
       <recent name="D:\ws-research\sca-boot\banana-common\banana-common-core\src\main\java\io\rainforest\banana\common\core" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.rainforest.banana.client1.web.demo" />
+      <recent name="io.rainforest.banana.client1.demo" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693879469385</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="增加client1 client2">
+      <created>1693968317929</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693968317929</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +181,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="init1" />
     <MESSAGE value="修改配置中心为scz" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改配置中心为scz" />
+    <MESSAGE value="增加client1 client2" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加client1 client2" />
   </component>
 </project>
