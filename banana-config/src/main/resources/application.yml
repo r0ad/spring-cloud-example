@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
+    config:
+      server:
+        native:
+          search-locations: classpath:/appconfig
+  profiles:
+    active: native
+server:
+  port: 10110
+  servlet:
+    context-path: /

@@ -10,6 +10,7 @@
 
     <modules>
         <module>banana-gateway</module>
+        <module>banana-config</module>
         <module>banana-common</module>
         <module>banana-client1</module>
         <module>banana-client2</module>

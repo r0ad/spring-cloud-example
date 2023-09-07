@@ -1,0 +1,14 @@
+server:
+  servlet: 
+    context-path: /client1
+  tomcat:
+    accept-count: 500
+    connection-timeout: -1
+    max-connections: 10000
+    max-http-post-size: -1
+    max-threads: 1000
+    min-spare-threads: 25
+
+cc: cccccc2223333333344444455555555
+feignId: client3
+feignPath: /client3
