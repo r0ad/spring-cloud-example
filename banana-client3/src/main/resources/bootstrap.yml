@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: client3
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
+    config:
+      profile: dev
+      name: ${spring.application.name}
+#      uri: http://localhost:10110
+      discovery:
+        enabled: true
+        serviceId: config
+server:
+  port: 10103

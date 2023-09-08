@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="增加demo">
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="增加scc">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-config/src/main/resources/appconfig/client3-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-config/src/main/resources/appconfig/client3-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/ws-research/sca-boot/banana-config/src/main/resources/appconfig",
+    "last_opened_file_path": "D:/ws-research/sca-boot/banana-client3/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -62,16 +63,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ws-research\sca-boot\banana-config\src\main\resources\appconfig" />
+      <recent name="D:\ws-research\sca-boot\banana-client3\src\main\resources" />
       <recent name="D:\ws-research\sca-boot" />
+      <recent name="D:\ws-research\sca-boot\banana-config\src\main\resources\appconfig" />
       <recent name="D:\ws-research\sca-boot\banana-common\banana-common-core\src\main\java\io\rainforest\banana\common\core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ws-research\sca-boot\banana-config\src\main\resources\appconfig" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.rainforest.banana.client1.web.demo" />
       <recent name="io.rainforest.banana.client1.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.io.rainforest.banana.config.Application">
+  <component name="RunManager" selected="Application.io.rainforest.banana.client3.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.gateway.Application" />
       <module name="banana-gateway" />
@@ -111,6 +116,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="io.rainforest.banana.client3.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.client3.Application" />
+      <module name="banana-client3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.rainforest.banana.client3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="io.rainforest.banana.config.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.config.Application" />
       <module name="banana-config" />
@@ -126,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.rainforest.banana.client3.Application" />
         <item itemvalue="Application.io.rainforest.banana.config.Application" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.io.rainforest.banana.client1.Application" />
@@ -184,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694049167429</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="增加scc">
+      <created>1694052430439</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694052430439</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +233,8 @@
     <MESSAGE value="修改配置中心为scz" />
     <MESSAGE value="增加client1 client2" />
     <MESSAGE value="增加demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加demo" />
+    <MESSAGE value="增加scc" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加scc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
