@@ -9,7 +9,7 @@ import java.util.List;
 @RestController
 public class HelloWorld {
 	@Autowired
-	private StoreClient storeClient;
+	private Client1 client1;
 
 	@GetMapping("/")
 	public String hello(String hello){
@@ -18,6 +18,6 @@ public class HelloWorld {
 
 	@GetMapping("/hello2")
 	public List<String> hello2(String hello){
-		return storeClient.hello2(hello);
+		return client1.hello2(hello);
 	}
 }

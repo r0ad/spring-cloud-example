@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(value = "client1", path = "/client1")
-public interface StoreClient {
+@FeignClient(name = "client1",value = "client1",contextId = "client1",path = "/client1")
+public interface Client1 {
     @RequestMapping(method = RequestMethod.GET,value = "/hello2")
     List<String> hello2(String s);
 
