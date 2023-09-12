@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="todo: open feign call">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client1/src/main/java/io/rainforest/banana/client1/web/demo/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client1/src/main/java/io/rainforest/banana/client1/web/demo/HelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banana-client3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/Client1.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/Client1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/StoreClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/Client1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694399598763</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="todo: open feign call">
+      <created>1694400895098</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694400895098</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,6 +277,19 @@
           <url>file://$PROJECT_DIR$/banana-config/src/main/java/io/rainforest/banana/config/Application.java</url>
           <line>10</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/HelloWorld.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/Client1.java</url>
+          <line>13</line>
+          <properties class="io.rainforest.banana.client3.web.demo.Client1" method="hello2">
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

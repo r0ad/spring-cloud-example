@@ -11,3 +11,8 @@ spring:
         service-id: config
     zookeeper:
       connect-string: 127.0.0.1:2181
+    openfeign:
+      httpclient:
+        enabled: false
+      okhttp:
+        enabled: true

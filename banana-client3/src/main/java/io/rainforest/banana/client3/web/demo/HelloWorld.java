@@ -20,4 +20,8 @@ public class HelloWorld {
 	public List<String> hello2(String hello){
 		return client1.hello2(hello);
 	}
+	@GetMapping("/hello")
+	public String hello1(String hello){
+		return client1.hello(hello);
+	}
 }

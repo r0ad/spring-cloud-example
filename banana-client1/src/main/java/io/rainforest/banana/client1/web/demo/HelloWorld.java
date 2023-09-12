@@ -1,6 +1,7 @@
 package io.rainforest.banana.client1.web.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
@@ -14,6 +15,7 @@ public class HelloWorld {
 	}
 
 	@GetMapping("/hello2")
+	@ResponseBody
 	public List<String> hello2(String hello){
 		List<String> res = new ArrayList<>();
 		res.add("test1");
