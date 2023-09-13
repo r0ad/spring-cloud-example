@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="add: spring boot build">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="add: gateway route">
       <change beforePath="$PROJECT_DIR$/banana-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694571115261</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add: gateway route">
+      <created>1694573807228</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694573807228</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +312,8 @@
     <MESSAGE value="增加权限" />
     <MESSAGE value="add: swagger demo" />
     <MESSAGE value="add: spring boot build" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: spring boot build" />
+    <MESSAGE value="add: gateway route" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: gateway route" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,8 +13,8 @@ spring:
           uri: lb://client1
           predicates:
             - Path=/client1/**
-          filters:
-            - StripPrefix=0
+#          filters:
+#            - StripPrefix=0
         - id: client2
           uri: lb://client2
           predicates:
