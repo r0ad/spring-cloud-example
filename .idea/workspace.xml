@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="增加权限">
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="add: swagger demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,9 @@
         <option name="userSettingsFile" value="D:\DevTool\apache-maven-3.6.3\conf\settings-ali.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2Up3A7c6fnJjSWbb9s2KWivIfVE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -256,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694570260229</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add: swagger demo">
+      <created>1694570678290</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694570678290</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +301,8 @@
     <MESSAGE value="add: open feign call" />
     <MESSAGE value="add: client1 support swagger" />
     <MESSAGE value="增加权限" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加权限" />
+    <MESSAGE value="add: swagger demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: swagger demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
