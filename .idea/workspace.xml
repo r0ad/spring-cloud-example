@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="add: open feign call">
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="add: client1 support swagger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client1/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banana-client1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-common/banana-common-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-common/banana-common-bom/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694483384757</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add: client1 support swagger">
+      <created>1694570095798</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694570095798</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,7 +278,8 @@
     <MESSAGE value="fix client3 use config server" />
     <MESSAGE value="todo: open feign call" />
     <MESSAGE value="add: open feign call" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: open feign call" />
+    <MESSAGE value="add: client1 support swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: client1 support swagger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
