@@ -3,6 +3,30 @@ spring:
   cloud:
     zookeeper:
       connect-string: localhost:2181
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+          lowerCaseServiceId: true
+      routes:
+        - id: client1
+          uri: lb://client1
+          predicates:
+            - Path=/client1/**
+          filters:
+            - StripPrefix=0
+        - id: client2
+          uri: lb://client2
+          predicates:
+            - Path=/client2/**
+          filters:
+            - StripPrefix=0
+        - id: client3
+          uri: lb://client3
+          predicates:
+            - Path=/client3/**
+          filters:
+            - StripPrefix=0
 server:
   port: 10100
   servlet:
