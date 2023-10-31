@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="add: gateway route">
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="fix common depend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-config/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +84,7 @@
       <recent name="io.rainforest.banana.client1.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Application.io.rainforest.banana.client1.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.gateway.Application" />
       <module name="banana-gateway" />
@@ -150,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
         <item itemvalue="Application.io.rainforest.banana.client1.Application" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.io.rainforest.banana.client3.Application" />
         <item itemvalue="Application.io.rainforest.banana.config.Application" />
         <item itemvalue="Application.io.rainforest.banana.client2.Application" />
@@ -301,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695713699675</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fix common depend">
+      <option name="closed" value="true" />
+      <created>1698368818820</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698368818820</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,7 +344,8 @@
     <MESSAGE value="add: swagger demo" />
     <MESSAGE value="add: spring boot build" />
     <MESSAGE value="add: gateway route" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: gateway route" />
+    <MESSAGE value="fix common depend" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix common depend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

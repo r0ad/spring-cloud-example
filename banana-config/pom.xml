@@ -15,6 +15,7 @@
 
 
     <dependencies>
+        <!--配置中心服务端-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
