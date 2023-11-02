@@ -15,6 +15,7 @@
         <module>banana-client1</module>
         <module>banana-client2</module>
         <module>banana-client3</module>
+        <module>banana-client4-sentinel</module>
     </modules>
 
     <properties>

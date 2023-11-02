@@ -34,14 +34,6 @@
             <groupId>io.rainforest</groupId>
             <artifactId>banana-common-core</artifactId>
         </dependency>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-crypto</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-http</artifactId>
-        </dependency>
         <!--接口文档-->
         <dependency>
             <groupId>org.springdoc</groupId>

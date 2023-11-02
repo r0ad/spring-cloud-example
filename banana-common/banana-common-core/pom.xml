@@ -49,6 +49,14 @@
             <artifactId>spring-webmvc</artifactId>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-crypto</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-http</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

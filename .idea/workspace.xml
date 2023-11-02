@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="fix common depend">
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="fix some comment">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banana-client3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-common/banana-common-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-common/banana-common-bom/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-common/banana-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-common/banana-common-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banana-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +89,26 @@
       <recent name="io.rainforest.banana.client1.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.io.rainforest.banana.client1.Application">
+  <component name="RunManager" selected="Application.io.rainforest.banana.client.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.gateway.Application" />
       <module name="banana-gateway" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.rainforest.banana.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.client.SentinelLocalDemo" />
+      <module name="banana-client4-sentinel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.rainforest.banana.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,25 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.rainforest.banana.client2.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.client2.Application" />
-      <module name="banana-client2" />
+    <configuration name="io.rainforest.banana.client.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.client.Application" />
+      <module name="banana-client4-sentinel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.rainforest.banana.client2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="io.rainforest.banana.client3.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.client3.Application" />
-      <module name="banana-client3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.rainforest.banana.client3.*" />
+          <option name="PATTERN" value="io.rainforest.banana.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.rainforest.banana.client.Application" />
+        <item itemvalue="Application.SentinelLocalDemo" />
         <item itemvalue="Application.io.rainforest.banana.client1.Application" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="Application.io.rainforest.banana.client3.Application" />
         <item itemvalue="Application.io.rainforest.banana.config.Application" />
-        <item itemvalue="Application.io.rainforest.banana.client2.Application" />
+        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698368818820</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fix some comment">
+      <option name="closed" value="true" />
+      <created>1698723830811</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1698723830811</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,7 +358,8 @@
     <MESSAGE value="add: spring boot build" />
     <MESSAGE value="add: gateway route" />
     <MESSAGE value="fix common depend" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix common depend" />
+    <MESSAGE value="fix some comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix some comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
