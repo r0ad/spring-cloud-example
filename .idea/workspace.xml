@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="fix some comment">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-common/banana-common-bom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-common/banana-common-bom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-common/banana-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-common/banana-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="add sentinel client">
+      <change beforePath="$PROJECT_DIR$/banana-client4-sentinel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client4-sentinel/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698723830811</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add sentinel client">
+      <option name="closed" value="true" />
+      <created>1698915624114</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1698915624114</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,7 +358,8 @@
     <MESSAGE value="add: gateway route" />
     <MESSAGE value="fix common depend" />
     <MESSAGE value="fix some comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some comment" />
+    <MESSAGE value="add sentinel client" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sentinel client" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

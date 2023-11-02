@@ -28,8 +28,6 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>
         </dependency>
-
-
         <!-- 工具包依赖 -->
         <dependency>
             <groupId>io.rainforest</groupId>
