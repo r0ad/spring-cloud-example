@@ -29,6 +29,14 @@ SpringCloud2022为当前Spring Cloud的最新版本迭代，基于Spring6和Spri
 - 08-项目搭建之OpenAPI3接口文档管理
 - 09-项目搭建之熔断Sentinel单体服务
 
+## 开发工具
+
+名称|说明
+--|--
+idea ce|java服务开发工具
+vs code|文档编写工具
+git|版本控制系统
+
 ## 参考资料
 
 ### 在线文档
