@@ -1,6 +1,11 @@
 spring.application.name: banana-client4-sentinel
 spring:
   cloud:
+    openfeign:
+      httpclient:
+        enabled: false
+      okhttp:
+        enabled: true
     sentinel:
       transport:
         port: 10201
@@ -11,6 +16,10 @@ server:
   port: 10200
   servlet:
     context-path: /client4
+## feign支持sentinel
+feign:
+  sentinel:
+    enabled: true
 # springdoc-openapi项目配置
 springdoc:
   swagger-ui:

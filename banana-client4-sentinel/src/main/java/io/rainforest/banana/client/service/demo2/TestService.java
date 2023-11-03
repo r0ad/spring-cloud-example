@@ -1,4 +1,4 @@
-package io.rainforest.banana.client.web.demo2;
+package io.rainforest.banana.client.service.demo2;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import org.springframework.stereotype.Service;
