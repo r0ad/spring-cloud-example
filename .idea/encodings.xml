@@ -19,6 +19,10 @@
     <file url="file://$PROJECT_DIR$/banana-config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/banana-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/banana-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/banana-seata-example/account-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/banana-seata-example/account-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/banana-seata-example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/banana-seata-example/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

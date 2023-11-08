@@ -16,6 +16,7 @@
         <module>banana-client2</module>
         <module>banana-client3</module>
         <module>banana-client4-sentinel</module>
+        <module>banana-seata-example</module>
     </modules>
 
     <properties>
