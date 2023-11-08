@@ -56,16 +56,13 @@ seata:
   service:
     vgroup-mapping:
       my_test_tx_group: seata-server # 此处配置对应Server端配置registry.eureka.application的值
-#  config:
-#    type: zk
-#    zk:
-#      serverAddr: 127.0.0.1:8848
-#      dataId: "seata.properties"
-#      username: 'nacos'
-#      password: 'nacos'
+  config:
+    type: file
+    file:
+      name: "seata.properties"
   registry:
     type: zk
     zk:
-      server-addr: localhost:2181
+      server-addr: 127.0.0.1:2181
 #      username: 'nacos'
 #      password: 'nacos'
