@@ -55,7 +55,7 @@ seata:
   tx-service-group: ${spring.application.name}-tx-group
   service:
     grouplist:
-      default: 127.0.0.1:8091
+      default: 127.0.0.1:8091 # 需要是服务端端口，对应 seata.server.service-port
 #    vgroup-mapping:
 #      my_test_tx_group: seata-server # 此处配置对应Server端配置registry.eureka.application的值
   config:
