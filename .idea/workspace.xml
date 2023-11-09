@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="集成seata 配置fix，使用直连seata server">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="init business-service order-service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-seata-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-seata-example/account-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/account-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-seata-example/business-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/business-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-seata-example/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/order-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +89,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/ws-research/sca-boot/banana-seata-example/business-service/src/main/java/io/rainforest/banana/app/web/demo",
+    "last_opened_file_path": "E:/ws-research/sca-boot/banana-seata-example/order-service/src/main/java/io/rainforest/banana/app/web/demo",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -97,16 +98,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ws-research\sca-boot\banana-seata-example\order-service\src\main\java\io\rainforest\banana\app\web\demo" />
       <recent name="E:\ws-research\sca-boot\banana-seata-example\business-service\src\main\java\io\rainforest\banana\app\web\demo" />
       <recent name="E:\ws-research\sca-boot\banana-seata-example\account-server\src\main\java\io\rainforest\banana\app\web\demo" />
       <recent name="E:\ws-research\sca-boot\banana-seata-example" />
       <recent name="D:\ws-research\sca-boot\banana-client3\src\main\resources" />
-      <recent name="D:\ws-research\sca-boot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ws-research\sca-boot\banana-config\src\main\resources\appconfig" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.rainforest.banana.app.web.demo" />
       <recent name="io.rainforest.banana.client1.web.demo" />
       <recent name="io.rainforest.banana.client1.demo" />
     </key>
@@ -418,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699495985139</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="init business-service order-service">
+      <option name="closed" value="true" />
+      <created>1699522512732</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1699522512732</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -460,7 +470,8 @@
     <MESSAGE value="集成seata init" />
     <MESSAGE value="集成seata 配置fix" />
     <MESSAGE value="集成seata 配置fix，使用直连seata server" />
-    <option name="LAST_COMMIT_MESSAGE" value="集成seata 配置fix，使用直连seata server" />
+    <MESSAGE value="init business-service order-service" />
+    <option name="LAST_COMMIT_MESSAGE" value="init business-service order-service" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
