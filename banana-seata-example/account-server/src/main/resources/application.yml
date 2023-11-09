@@ -21,9 +21,9 @@ spring:
     username: ${base.config.mdb.username}
     password: ${base.config.mdb.password}
 server:
-  port: 10101
+  port: 10301
   servlet:
-    context-path: /client1
+    context-path: /
 # springdoc-openapi项目配置
 springdoc:
   swagger-ui:
@@ -54,15 +54,17 @@ seata:
   application-id: ${spring.application.name}
   tx-service-group: ${spring.application.name}-tx-group
   service:
-    vgroup-mapping:
-      my_test_tx_group: seata-server # 此处配置对应Server端配置registry.eureka.application的值
+    grouplist:
+      default: 127.0.0.1:8091
+#    vgroup-mapping:
+#      my_test_tx_group: seata-server # 此处配置对应Server端配置registry.eureka.application的值
   config:
     type: file
     file:
       name: "seata.properties"
   registry:
-    type: zk
-    zk:
-      server-addr: 127.0.0.1:2181
+    type: file
+#    file:
+#      server-addr: 127.0.0.1:2181
 #      username: 'nacos'
 #      password: 'nacos'
