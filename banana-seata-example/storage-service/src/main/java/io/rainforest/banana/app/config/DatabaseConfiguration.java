@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package io.rainforest.banana.app.web.demo;
+package io.rainforest.banana.app.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -23,29 +23,31 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import javax.sql.DataSource;
 
 /**
- * 初始化账户数据
  * @author xiaojing
  */
 @Configuration
 public class DatabaseConfiguration {
 
+
 //  druid don't support GraalVM now because of there is CGlib proxy
-//	@Bean
-//	@Primary
-//	@ConfigurationProperties("spring.datasource")
-//	public DataSource storageDataSource() {
-//		return new DruidDataSource();
-//	}
+	/*@Bean
+	@Primary
+	@ConfigurationProperties("spring.datasource")
+	public DataSource storageDataSource() {
+		return new DruidDataSource();
+	}*/
 
 	@Bean
 	public JdbcTemplate jdbcTemplate(DataSource dataSource) {
+
 		JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 
-		jdbcTemplate.update("delete from account_tbl where user_id = 'U100001'");
+		jdbcTemplate.update("delete from storage_tbl where commodity_code = 'C00321'");
 		jdbcTemplate.update(
-				"insert into account_tbl(user_id, money) values ('U100001', 10000)");
+				"insert into storage_tbl(commodity_code, count) values ('C00321', 100)");
 
 		return jdbcTemplate;
+
 	}
 
 }

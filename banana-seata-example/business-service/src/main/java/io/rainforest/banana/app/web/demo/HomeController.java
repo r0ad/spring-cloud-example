@@ -52,14 +52,14 @@ public class HomeController {
 	public String rest() {
 
 		String result = restTemplate.getForObject(
-				"http://127.0.0.1:18082/storage/" + COMMODITY_CODE + "/" + ORDER_COUNT,
+				"http://127.0.0.1:10304/storage/" + COMMODITY_CODE + "/" + ORDER_COUNT,
 				String.class);
 
 		if (!SUCCESS.equals(result)) {
 			throw new RuntimeException();
 		}
 
-		String url = "http://127.0.0.1:18083/order";
+		String url = "http://127.0.0.1:10303/order";
 		HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
 
