@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="增加单节点seata例子">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="业务验证fix和工程init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-seata-example/account-server/src/main/java/io/rainforest/banana/app/web/demo/AccountControllerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/account-server/src/main/java/io/rainforest/banana/app/web/demo/AccountControllerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-seata-example/account-server/src/main/java/io/rainforest/banana/app/web/demo/DatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/account-server/src/main/java/io/rainforest/banana/app/web/demo/DatabaseConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-seata-example/business-service/src/main/java/io/rainforest/banana/app/web/demo/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/business-service/src/main/java/io/rainforest/banana/app/web/demo/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-seata-example/order-service/src/main/java/io/rainforest/banana/app/web/demo/DatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/order-service/src/main/java/io/rainforest/banana/app/web/demo/DatabaseConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-seata-example/order-service/src/main/java/io/rainforest/banana/app/web/demo/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/order-service/src/main/java/io/rainforest/banana/app/web/demo/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-seata-example/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-seata-example/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/banana-seata-example/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -440,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699523260387</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="业务验证fix和工程init">
+      <option name="closed" value="true" />
+      <created>1699584684392</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1699584684392</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,7 +460,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/nacos" />
     </ignored-roots>
-    <MESSAGE value="init1" />
     <MESSAGE value="修改配置中心为scz" />
     <MESSAGE value="增加client1 client2" />
     <MESSAGE value="增加demo" />
@@ -483,7 +484,8 @@
     <MESSAGE value="集成seata 配置fix，使用直连seata server" />
     <MESSAGE value="init business-service order-service" />
     <MESSAGE value="增加单节点seata例子" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加单节点seata例子" />
+    <MESSAGE value="业务验证fix和工程init" />
+    <option name="LAST_COMMIT_MESSAGE" value="业务验证fix和工程init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

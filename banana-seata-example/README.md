@@ -45,6 +45,8 @@ business-service 主业务服务提供一个场景，主要是如下两个接口
 - 访问http://localhost:10302/seata/feign，验证分布式事务
 - 访问http://localhost:10302/seata/rest，验证分布式事务
 
+通过控制台打印的 `RootContext.getXID()` 可以看出多个接口处于同一个事务。
+
 ## 注意事项
 
 - 该例子工程基于spring cloud 2022测试分布式事务的使用和验证，spring cloud 2022版本
