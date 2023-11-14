@@ -1,0 +1,5 @@
+spring.application.name: banana-client5-tracing
+server:
+  port: 10115
+  servlet:
+    context-path: /app

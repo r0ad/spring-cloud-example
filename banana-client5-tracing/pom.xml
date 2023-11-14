@@ -54,6 +54,12 @@
             <artifactId>spring-cloud-openfeign-core</artifactId>
             <optional>true</optional>
         </dependency>
+        <!--Lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
         <!-- 工具包依赖 -->
         <dependency>
             <groupId>io.rainforest</groupId>
