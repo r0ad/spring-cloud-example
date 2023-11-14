@@ -17,6 +17,7 @@
         <micrometer-tracing.version>1.1.6</micrometer-tracing.version>
     </properties>
 
+    <!--导入micrometer-tracing的bom-->
     <dependencyManagement>
         <dependencies>
             <dependency>

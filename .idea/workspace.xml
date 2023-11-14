@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="修改readme">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="增加tracing客户端">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-common/banana-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-common/banana-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client5-tracing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client5-tracing/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699584684392</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="增加tracing客户端">
+      <option name="closed" value="true" />
+      <created>1699944816521</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1699944816521</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +468,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/nacos" />
     </ignored-roots>
-    <MESSAGE value="修改配置中心为scz" />
     <MESSAGE value="增加client1 client2" />
     <MESSAGE value="增加demo" />
     <MESSAGE value="增加scc" />
@@ -489,7 +492,8 @@
     <MESSAGE value="init business-service order-service" />
     <MESSAGE value="增加单节点seata例子" />
     <MESSAGE value="业务验证fix和工程init" />
-    <option name="LAST_COMMIT_MESSAGE" value="业务验证fix和工程init" />
+    <MESSAGE value="增加tracing客户端" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加tracing客户端" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
