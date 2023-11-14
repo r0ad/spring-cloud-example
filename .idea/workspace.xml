@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="增加tracing客户端">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="初始化test客户端">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client5-tracing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client5-tracing/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-common/banana-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-common/banana-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client6-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client6-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client6-test/src/test/java/io/rainforest/banana/app/MyMockMvcTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client6-test/src/test/java/io/rainforest/banana/app/MyMockMvcTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,19 +113,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MyMockMvcTests">
-    <configuration name="Application (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.app.Application" />
-      <module name="storage-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.rainforest.banana.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Application (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.app.Application" />
       <module name="banana-client5-tracing" />
@@ -154,19 +139,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BraveLogTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.app.BraveLogTest" />
-      <module name="banana-client5-tracing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.rainforest.banana.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyMockMvcTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="banana-client6-test" />
       <extension name="coverage">
@@ -182,13 +154,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyRandomPortWebTestClientTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banana-client6-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.rainforest.banana.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.rainforest.banana.app" />
+      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.app.MyRandomPortWebTestClientTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRandomPortWebTestClientTests.exampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banana-client6-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.rainforest.banana.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.rainforest.banana.app" />
+      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.app.MyRandomPortWebTestClientTests" />
+      <option name="METHOD_NAME" value="exampleTest(org.springframework.test.web.reactive.server.WebTestClient)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MyMockMvcTests" />
+        <item itemvalue="JUnit.MyRandomPortWebTestClientTests" />
+        <item itemvalue="JUnit.MyRandomPortWebTestClientTests.exampleTest" />
         <item itemvalue="Application.Application (4)" />
         <item itemvalue="Application.Application (3)" />
-        <item itemvalue="Application.BraveLogTest" />
-        <item itemvalue="Application.Application (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -463,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699947142883</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="初始化test客户端">
+      <option name="closed" value="true" />
+      <created>1699955352757</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1699955352757</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,7 +492,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/nacos" />
     </ignored-roots>
-    <MESSAGE value="增加client1 client2" />
     <MESSAGE value="增加demo" />
     <MESSAGE value="增加scc" />
     <MESSAGE value="add client3 use config server" />
@@ -506,7 +516,8 @@
     <MESSAGE value="增加单节点seata例子" />
     <MESSAGE value="业务验证fix和工程init" />
     <MESSAGE value="增加tracing客户端" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加tracing客户端" />
+    <MESSAGE value="初始化test客户端" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化test客户端" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

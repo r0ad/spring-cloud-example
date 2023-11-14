@@ -21,5 +21,15 @@ class MyMockMvcTests {
         mvc.perform(get("/")).andExpect(status().isOk()).andExpect(content().string("Hello World"));
     }
 
+    // If Spring WebFlux is on the classpath, you can drive MVC tests with a WebTestClient
+    @Test
+    void testWithWebTestClient(@Autowired WebTestClient webClient) {
+        webClient
+                .get().uri("/")
+                .exchange()
+                .expectStatus().isOk()
+                .expectBody(String.class).isEqualTo("Hello World");
+    }
+
 }
 
