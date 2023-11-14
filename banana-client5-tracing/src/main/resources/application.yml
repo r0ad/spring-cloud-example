@@ -1,0 +1,43 @@
+spring.application.name: banana-client5-tracing
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+server:
+  port: 10115
+  servlet:
+    context-path: /app
+# springdoc-openapi项目配置
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: io.rainforest.banana.app.web
+# knife4j的增强配置，不需要增强可以不配
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+  basic:
+    enable: true
+    # Basic认证用户名
+    username: yulin
+    # Basic认证密码
+    password: 123yl.
+
+## 设置zipkin和brave配置和tracing的日志信息
+logging.pattern.level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
+management:
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+  tracing:
+    sampling:
+      # 采样率的概率，100%采样
+      probability: 1.0
