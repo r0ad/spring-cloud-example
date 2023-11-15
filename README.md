@@ -12,9 +12,11 @@ SpringCloud2022为当前Spring Cloud的最新版本迭代，基于Spring6和Spri
 - 网关： Spring Cloud Gateway
 - 云服务配置： Spring Cloud Config
 - 熔断： Sentinel
-- 服务追踪： Spring Cloud Sleuth
+- 服务追踪： Micrometer Tracing
 - 测试集成： Junit5（Spring boot test）
 - 远程调用： OpenFeign
+- 接口文档： springdoc-openapi （openapi3）
+- 分布式事务： Seata
 
 ## 内容大纲
 

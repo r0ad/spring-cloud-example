@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="支持webflux测试">
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="添加测试用例">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client6-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client6-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client6-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client6-test/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client6-test/src/test/java/io/rainforest/banana/app/MyMockMvcTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client6-test/src/test/java/io/rainforest/banana/app/MyMockMvcTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,27 +80,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/ws-research/sca-boot/banana-seata-example/doc&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/ws-research/sca-boot/banana-client6-test/src/test/java/io/rainforest/banana/app/springmvctests",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ws-research\sca-boot\banana-client6-test\src\test\java\io\rainforest\banana\app\springmvctests" />
       <recent name="E:\ws-research\sca-boot\banana-seata-example\doc" />
       <recent name="E:\ws-research\sca-boot\banana-seata-example\storage-service\src\main\java\io\rainforest\banana\app" />
       <recent name="E:\ws-research\sca-boot\banana-seata-example\order-service\src\main\java\io\rainforest\banana\app\web\demo" />
       <recent name="E:\ws-research\sca-boot\banana-seata-example\business-service\src\main\java\io\rainforest\banana\app\web\demo" />
-      <recent name="E:\ws-research\sca-boot\banana-seata-example\account-server\src\main\java\io\rainforest\banana\app\web\demo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ws-research\sca-boot\banana-config\src\main\resources\appconfig" />
@@ -484,7 +482,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699956002715</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="添加测试用例">
+      <option name="closed" value="true" />
+      <created>1700034531580</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1700034531580</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -502,7 +508,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/nacos" />
     </ignored-roots>
-    <MESSAGE value="增加scc" />
     <MESSAGE value="add client3 use config server" />
     <MESSAGE value="fix client3 use config server" />
     <MESSAGE value="todo: open feign call" />
@@ -527,7 +532,8 @@
     <MESSAGE value="增加tracing客户端" />
     <MESSAGE value="初始化test客户端" />
     <MESSAGE value="支持webflux测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="支持webflux测试" />
+    <MESSAGE value="添加测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加测试用例" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
