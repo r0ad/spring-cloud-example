@@ -19,6 +19,7 @@
         <module>banana-client5-tracing</module>
         <module>banana-client6-test</module>
         <module>banana-seata-example</module>
+        <module>banana-gateway-sso</module>
     </modules>
 
     <properties>

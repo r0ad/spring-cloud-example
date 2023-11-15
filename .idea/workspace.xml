@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="添加测试用例">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client5-tracing/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client5-tracing/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-client6-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client6-test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/ws-research/sca-boot/banana-client6-test/src/test/java/io/rainforest/banana/app/springmvctests",
+    "last_opened_file_path": "E:/ws-zxsl/portalpom",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -111,13 +114,26 @@
       <recent name="io.rainforest.banana.client1.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyControllerTests (1)">
+  <component name="RunManager" selected="Application.io.rainforest.banana.gateway.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.app.Application" />
       <module name="banana-client6-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.rainforest.banana.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="io.rainforest.banana.gateway.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.gateway.Application" />
+      <module name="banana-gateway-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.rainforest.banana.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,28 +186,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMockMvcTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="banana-client6-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.rainforest.banana.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.rainforest.banana.app" />
-      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.app.MyMockMvcTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.io.rainforest.banana.gateway.Application" />
         <item itemvalue="JUnit.MyControllerTests (1)" />
         <item itemvalue="JUnit.MyControllerTests" />
         <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.MyApplicationArgumentTests" />
-        <item itemvalue="JUnit.MyMockMvcTests" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +491,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700034531580</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="添加测试用例">
+      <option name="closed" value="true" />
+      <created>1700035923119</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1700035923119</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -557,6 +566,11 @@
           <url>file://$PROJECT_DIR$/banana-client6-test/src/test/java/io/rainforest/banana/app/MyControllerTests.java</url>
           <line>28</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/base/SsoServerController.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/Client1.java</url>

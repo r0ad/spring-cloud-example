@@ -2,4 +2,4 @@ spring.application.name: banana-client5-tracing
 server:
   port: 10120
   servlet:
-    context-path: /
+    context-path: /client6

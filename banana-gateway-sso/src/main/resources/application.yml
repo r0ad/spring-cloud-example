@@ -1,0 +1,92 @@
+## 应用名称设置
+spring.application.name: gateway-sso
+## 微服务设置
+spring:
+  # Redis配置 （SSO模式一和模式二使用Redis来同步会话）
+  redis:
+    # Redis数据库索引（默认为0）
+    database: 1
+    # Redis服务器地址
+    host: 127.0.0.1
+    # Redis服务器连接端口
+    port: 6379
+    # Redis服务器连接密码（默认为空）
+    password:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+          lowerCaseServiceId: true
+      routes: ## 服务端路由设置
+        - id: client1
+          uri: lb://client1
+          predicates:
+            - Path=/client1/**
+#          filters:
+#            - StripPrefix=0
+        - id: client2
+          uri: lb://client2
+          predicates:
+            - Path=/client2/**
+          filters:
+            - StripPrefix=0
+        - id: client3
+          uri: lb://client3
+          predicates:
+            - Path=/client3/**
+          filters:
+            - StripPrefix=0
+
+## springboot服务端设置
+server:
+  port: 10105
+  servlet:
+    context-path: /
+## 日志级别设置
+logging:
+  level:
+    root: info
+## sso 相关配置
+sso:
+  account: ## 测试账号密码
+    - username: yulin # 账号密码
+      password: 123yl.
+      userid: 10001
+    - username: sa
+      password: 123456
+      userid: 10002
+    - username: admin
+      password: 123456
+      userid: 10003
+    - username: test
+      password: 123456
+      userid: 10004
+# Sa-Token 配置
+sa-token:
+  # ------- SSO-模式一相关配置  (非模式一不需要配置)
+  # cookie:
+  # 配置 Cookie 作用域
+  # domain: stp.com
+
+  # ------- SSO-模式二相关配置
+  sso:
+    # Ticket有效期 (单位: 秒)，默认五分钟
+#    ticket-timeout: 300
+    # 所有允许的授权回调地址
+    allow-url: "*"
+    # ------- SSO-模式三相关配置 （下面的配置在使用SSO模式三时打开）
+    # 是否打开模式三
+    is-http: true
+    # SSO-Server端 ticket校验地址
+    check-ticket-url: http://sa-sso-server.com:9000/sso/checkTicket
+  sign:
+    # API 接口调用秘钥
+    secret-key: helloworld
+    # ---- 除了以上配置项，你还需要为 Sa-Token 配置http请求处理器（文档有步骤说明）
+
+forest:
+  # 关闭 forest 请求日志打印
+  log-enabled: false

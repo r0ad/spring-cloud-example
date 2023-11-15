@@ -6,7 +6,7 @@ spring:
 server:
   port: 10115
   servlet:
-    context-path: /app
+    context-path: /client5
 # springdoc-openapi项目配置
 springdoc:
   swagger-ui:
