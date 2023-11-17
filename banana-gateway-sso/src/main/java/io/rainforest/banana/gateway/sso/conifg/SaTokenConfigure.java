@@ -33,12 +33,16 @@ public class SaTokenConfigure {
                 .addExclude("/user/**")
                 // 指定[认证函数]: 每次请求执行 
                 .setAuth(obj -> {
-                    System.out.println("---------- sa全局认证");
+//                    System.out.println("---------- sa全局认证");
                     SaRouter.match("/**", () -> StpUtil.checkLogin());
+                    // 根据路由划分模块，不同模块不同鉴权
+                    // todo 修改为动态权限鉴权，角色权限和路径基于数据库配置
+                    SaRouter.match("/admin/**", r -> StpUtil.checkPermission("admin"));
+                    SaRouter.match("/goods/**", r -> StpUtil.checkPermission("goods"));
                 })
                 // 指定[异常处理函数]：每次[认证函数]发生异常时执行此函数 
                 .setError(e -> {
-                    System.out.println("---------- sa全局异常 ");
+//                    System.out.println("---------- sa全局异常 ");
                     return SaResult.error(e.getMessage());
                 });
     }

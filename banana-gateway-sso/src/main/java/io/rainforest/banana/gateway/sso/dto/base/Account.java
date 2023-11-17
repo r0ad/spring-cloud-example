@@ -6,7 +6,7 @@ import java.util.List;
 
 @Data
 public class Account {
-    private Long userid;
+    private String userid;
     private String username;
     private String password;
     private List<String> permissions;

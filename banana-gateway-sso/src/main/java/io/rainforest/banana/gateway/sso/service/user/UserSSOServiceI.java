@@ -34,19 +34,19 @@ public interface UserSSOServiceI {
      * @param loginId
      * @return
      */
-    List<String> getPermissionsByLoginId(Object loginId);
+    List<String> getPermissionsByLoginId(String loginId);
 
     /**
      * 查询账户角色信息ByLoginId
      * @param loginId
      * @return
      */
-    List<String> getRolesByLoginId(Object loginId);
+    List<String> getRolesByLoginId(String loginId);
 
     /**
      * 获取用户信息
      * @param loginId
      * @return
      */
-    Account getUserInfo(Long loginId);
+    Account getUserInfo(String loginId);
 }

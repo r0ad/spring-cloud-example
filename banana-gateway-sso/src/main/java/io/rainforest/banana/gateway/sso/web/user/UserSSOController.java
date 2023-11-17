@@ -17,7 +17,7 @@ public class UserSSOController {
     @Autowired
     private UserSSOServiceI userSSOServiceI;
 
-    // 测试登录  ---- http://localhost:10105/user/doLogin?name=zhang&pwd=123456
+    // 测试登录  ---- http://localhost:10105/user/doLogin?name=test&pwd=123456
     @GetMapping("doLogin")
     public SaResult doLogin(String name, String pwd) {
         if(StpUtil.isLogin()){
@@ -52,6 +52,10 @@ public class UserSSOController {
         return SaResult.ok();
     }
 
+    /**
+     * 获取用户信息
+     * @return
+     */
     @GetMapping("userInfo")
     public SaResult userInfo() {
 
@@ -59,6 +63,24 @@ public class UserSSOController {
         if (loginId == null) {
             return SaResult.error("未登录");
         }
-        return SaResult.data(userSSOServiceI.getUserInfo(Long.valueOf((String) loginId)));
+        return SaResult.data(userSSOServiceI.getUserInfo(((String) loginId)));
+    }
+
+    /**
+     * 获取权限信息
+     * @return
+     */
+    @GetMapping("role")
+    public SaResult role() {
+
+        return SaResult.data(StpUtil.getRoleList());
+    }
+    /**
+     * 获取权限信息
+     * @return
+     */
+    @GetMapping("permission")
+    public SaResult permission() {
+        return SaResult.data(StpUtil.getPermissionList());
     }
 }

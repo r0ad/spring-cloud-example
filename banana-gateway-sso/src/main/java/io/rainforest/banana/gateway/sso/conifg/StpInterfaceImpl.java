@@ -22,7 +22,7 @@ public class StpInterfaceImpl implements StpInterface {
     @Override
     public List<String> getPermissionList(Object loginId, String loginType) {
         // 本 list 仅做模拟，实际项目中要根据具体业务逻辑来查询权限
-        return userSSOServiceI.getPermissionsByLoginId(loginId);
+        return userSSOServiceI.getPermissionsByLoginId((String) loginId);
     }
 
     /**
@@ -31,7 +31,7 @@ public class StpInterfaceImpl implements StpInterface {
     @Override
     public List<String> getRoleList(Object loginId, String loginType) {
         // 本 list 仅做模拟，实际项目中要根据具体业务逻辑来查询角色
-        return userSSOServiceI.getRolesByLoginId(loginId);
+        return userSSOServiceI.getRolesByLoginId((String) loginId);
     }
 
 }

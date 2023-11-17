@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="初始化网关单电登陆sso服务">
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="写活sso认证">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/base/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/base/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/conifg/SaTokenConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/conifg/SaTokenConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/conifg/StpInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/conifg/StpInterfaceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/dto/base/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/dto/base/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/base/SsoServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/base/SsoServerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/service/user/UserSSOServiceI.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/service/user/UserSSOServiceI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/service/user/impl/UserSSOServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/service/user/impl/UserSSOServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserSSOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserSSOController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -510,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700043697245</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="写活sso认证">
+      <option name="closed" value="true" />
+      <created>1700193498321</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1700193498321</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -528,7 +538,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/nacos" />
     </ignored-roots>
-    <MESSAGE value="fix client3 use config server" />
     <MESSAGE value="todo: open feign call" />
     <MESSAGE value="add: open feign call" />
     <MESSAGE value="add: client1 support swagger" />
@@ -553,7 +562,8 @@
     <MESSAGE value="支持webflux测试" />
     <MESSAGE value="添加测试用例" />
     <MESSAGE value="初始化网关单电登陆sso服务" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化网关单电登陆sso服务" />
+    <MESSAGE value="写活sso认证" />
+    <option name="LAST_COMMIT_MESSAGE" value="写活sso认证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -580,7 +590,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserSSOController.java</url>
-          <line>58</line>
+          <line>62</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

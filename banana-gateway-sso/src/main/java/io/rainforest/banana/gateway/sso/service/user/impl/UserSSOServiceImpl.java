@@ -45,7 +45,7 @@ public class UserSSOServiceImpl implements UserSSOServiceI {
     }
 
     @Override
-    public List<String> getPermissionsByLoginId(Object loginId) {
+    public List<String> getPermissionsByLoginId(String loginId) {
         for (Account account:ssoConfig.getAccount()){
             if(Objects.equals(loginId,account.getUserid())) {
                 return account.getPermissions();
@@ -55,7 +55,7 @@ public class UserSSOServiceImpl implements UserSSOServiceI {
     }
 
     @Override
-    public List<String> getRolesByLoginId(Object loginId) {
+    public List<String> getRolesByLoginId(String loginId) {
         for (Account account:ssoConfig.getAccount()){
             if(Objects.equals(loginId,account.getUserid())) {
                 return account.getRoles();
@@ -65,7 +65,7 @@ public class UserSSOServiceImpl implements UserSSOServiceI {
     }
 
     @Override
-    public Account getUserInfo(Long loginId) {
+    public Account getUserInfo(String loginId) {
         for (Account account:ssoConfig.getAccount()){
             if(Objects.equals(loginId,account.getUserid())) {
                 account.setPassword("这个看不到呢");
