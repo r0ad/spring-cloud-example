@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="添加测试用例">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="初始化网关单电登陆sso服务">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client5-tracing/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client5-tracing/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-client6-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-client6-test/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/base/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/base/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/conifg/SaTokenConfigure.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/conifg/SaTokenConfigure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/dto/base/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/dto/base/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/base/SsoServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/base/SsoServerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -83,20 +85,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "E:/ws-zxsl/portalpom",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/ws-zxsl/portalpom&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ws-research\sca-boot\banana-client6-test\src\test\java\io\rainforest\banana\app\springmvctests" />
@@ -109,6 +111,7 @@
       <recent name="D:\ws-research\sca-boot\banana-config\src\main\resources\appconfig" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.rainforest.banana.gateway.sso.web.user" />
       <recent name="io.rainforest.banana.app.web.demo" />
       <recent name="io.rainforest.banana.client1.web.demo" />
       <recent name="io.rainforest.banana.client1.demo" />
@@ -499,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700035923119</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="初始化网关单电登陆sso服务">
+      <option name="closed" value="true" />
+      <created>1700043697245</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1700043697245</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,7 +528,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/nacos" />
     </ignored-roots>
-    <MESSAGE value="add client3 use config server" />
     <MESSAGE value="fix client3 use config server" />
     <MESSAGE value="todo: open feign call" />
     <MESSAGE value="add: open feign call" />
@@ -542,7 +552,8 @@
     <MESSAGE value="初始化test客户端" />
     <MESSAGE value="支持webflux测试" />
     <MESSAGE value="添加测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加测试用例" />
+    <MESSAGE value="初始化网关单电登陆sso服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化网关单电登陆sso服务" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -568,9 +579,9 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/base/SsoServerController.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserSSOController.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/banana-client3/src/main/java/io/rainforest/banana/client3/web/demo/Client1.java</url>
