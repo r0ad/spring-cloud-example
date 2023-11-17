@@ -18,8 +18,8 @@ public class UserSSOController {
     private UserSSOServiceI userSSOServiceI;
 
     // 测试登录  ---- http://localhost:10105/user/doLogin?name=test&pwd=123456
-    @GetMapping("doLogin")
-    public SaResult doLogin(String name, String pwd) {
+    @GetMapping("login")
+    public SaResult login(String name, String pwd) {
         if(StpUtil.isLogin()){
             StpUtil.logout();
         }
@@ -40,8 +40,8 @@ public class UserSSOController {
     }
 
     // 查询 Token 信息  ---- http://localhost:10105/user/tokenInfo
-    @GetMapping("tokenInfo")
-    public SaResult tokenInfo() {
+    @GetMapping("token")
+    public SaResult token() {
         return SaResult.data(StpUtil.getTokenInfo());
     }
 
@@ -59,11 +59,11 @@ public class UserSSOController {
     @GetMapping("userInfo")
     public SaResult userInfo() {
 
-        Object loginId = StpUtil.getLoginId();
+        String loginId = StpUtil.getLoginIdAsString();
         if (loginId == null) {
             return SaResult.error("未登录");
         }
-        return SaResult.data(userSSOServiceI.getUserInfo(((String) loginId)));
+        return SaResult.data(userSSOServiceI.getUserInfo((loginId)));
     }
 
     /**
