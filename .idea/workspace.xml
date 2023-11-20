@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="user服务优化；权限校验修正；">
+    <list default="true" id="ffce93c7-7350-40ca-8523-c2f9c17ee960" name="Changes" comment="优化接口名称">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/base/SsoServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/base/SsoServerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserDemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserSSOController.java" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/java/io/rainforest/banana/gateway/sso/web/user/UserSSOController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banana-gateway-sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/banana-gateway-sso/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,20 +113,7 @@
       <recent name="io.rainforest.banana.client1.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.io.rainforest.banana.gateway.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.app.Application" />
-      <module name="banana-client6-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.rainforest.banana.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoginTest.testWithWebTestClient">
     <configuration name="io.rainforest.banana.gateway.Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.gateway.Application" />
       <module name="banana-gateway-sso" />
@@ -144,17 +127,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyApplicationArgumentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="banana-client6-test" />
+    <configuration name="LoginTest.testWithMockMvc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banana-gateway-sso" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.rainforest.banana.app.*" />
+          <option name="PATTERN" value="io.rainforest.banana.gateway.sso.web.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="io.rainforest.banana.app" />
-      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.app.MyApplicationArgumentTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="io.rainforest.banana.gateway.sso.web.base" />
+      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.gateway.sso.web.base.LoginTest" />
+      <option name="METHOD_NAME" value="testWithMockMvc(org.springframework.test.web.servlet.MockMvc)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testWithWebTestClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="banana-gateway-sso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.rainforest.banana.gateway.sso.web.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.rainforest.banana.gateway.sso.web.base" />
+      <option name="MAIN_CLASS_NAME" value="io.rainforest.banana.gateway.sso.web.base.LoginTest" />
+      <option name="METHOD_NAME" value="testWithWebTestClient(org.springframework.test.web.reactive.server.WebTestClient)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTest.testWithWebTestClient" />
+        <item itemvalue="JUnit.LoginTest.testWithMockMvc" />
         <item itemvalue="Application.io.rainforest.banana.gateway.Application" />
         <item itemvalue="JUnit.MyControllerTests (1)" />
         <item itemvalue="JUnit.MyControllerTests" />
-        <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.MyApplicationArgumentTests" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700198312579</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="优化接口名称">
+      <option name="closed" value="true" />
+      <created>1700213275440</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1700213275440</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -544,7 +552,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/nacos" />
     </ignored-roots>
-    <MESSAGE value="add: open feign call" />
     <MESSAGE value="add: client1 support swagger" />
     <MESSAGE value="增加权限" />
     <MESSAGE value="add: swagger demo" />
@@ -569,7 +576,8 @@
     <MESSAGE value="初始化网关单电登陆sso服务" />
     <MESSAGE value="写活sso认证" />
     <MESSAGE value="user服务优化；权限校验修正；" />
-    <option name="LAST_COMMIT_MESSAGE" value="user服务优化；权限校验修正；" />
+    <MESSAGE value="优化接口名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化接口名称" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
