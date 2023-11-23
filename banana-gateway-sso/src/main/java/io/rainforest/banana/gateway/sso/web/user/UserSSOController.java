@@ -1,8 +1,9 @@
 package io.rainforest.banana.gateway.sso.web.user;
 
+import cn.dev33.satoken.sso.SaSsoTemplate;
+import cn.dev33.satoken.sso.SaSsoUtil;
 import cn.dev33.satoken.stp.StpUtil;
 import cn.dev33.satoken.util.SaResult;
-import io.rainforest.banana.gateway.sso.conifg.SSOConfig;
 import io.rainforest.banana.gateway.sso.dto.base.Account;
 import io.rainforest.banana.gateway.sso.service.user.UserSSOServiceI;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserSSOController {
     @Autowired
     private UserSSOServiceI userSSOServiceI;
+    /**
+     * 底层 SaSsoTemplate 对象
+     */
+    private final static SaSsoTemplate ssoTemplate = SaSsoUtil.ssoTemplate;
+
 
     // 测试登录  ---- http://localhost:10105/user/doLogin?name=test&pwd=123456
     @GetMapping("login")
@@ -82,5 +88,13 @@ public class UserSSOController {
     @GetMapping("permission")
     public SaResult permission() {
         return SaResult.data(StpUtil.getPermissionList());
+    }
+    /**
+     * 获取权限信息
+     * @return
+     */
+    @GetMapping("ticketGenerate")
+    public SaResult ticketGenerate(String client) {
+        return SaResult.data(ssoTemplate.createTicket(StpUtil.getLoginIdAsString(),client));
     }
 }
