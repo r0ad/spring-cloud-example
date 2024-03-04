@@ -34,7 +34,7 @@
 
     <dependencyManagement>
         <dependencies>
-            <!--pig 公共版本定义-->
+            <!--banana 公共版本定义-->
             <dependency>
                 <groupId>io.rainforest</groupId>
                 <artifactId>banana-common-bom</artifactId>
