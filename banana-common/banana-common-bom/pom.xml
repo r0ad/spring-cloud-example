@@ -34,6 +34,11 @@
         <hutool.version>5.8.21</hutool.version>
         <mica.version>3.0.8</mica.version>
         <sentinel.version>1.8.4</sentinel.version>
+        <sa-token.version>1.37.0</sa-token.version>
+        <forest.version>1.5.26</forest.version>
+        <sentinel.version>1.8.6</sentinel.version>
+        <knife4j.version>4.3.0</knife4j.version>
+
     </properties>
     <!-- 定义全局jar版本,模块使用需要再次引入但不用写版本号-->
     <dependencyManagement>
@@ -137,33 +142,39 @@
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>
                 <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
-                <version>4.3.0</version>
+                <version>${knife4j.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba.csp</groupId>
                 <artifactId>sentinel-core</artifactId>
-                <version>1.8.6</version>
+                <version>${sentinel.version}</version>
             </dependency>
 
             <!-- Sa-Token 插件：整合SSO -->
             <dependency>
                 <groupId>cn.dev33</groupId>
                 <artifactId>sa-token-sso</artifactId>
-                <version>1.37.0</version>
+                <version>${sa-token.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cn.dev33</groupId>
+                <artifactId>sa-token-reactor-spring-boot3-starter</artifactId>
+                <version>${sa-token.version}</version>
             </dependency>
 
             <!-- Sa-Token 整合 Redis (使用 jackson 序列化方式) -->
             <dependency>
                 <groupId>cn.dev33</groupId>
                 <artifactId>sa-token-redis-jackson</artifactId>
-                <version>1.37.0</version>
+                <version>${sa-token.version}</version>
             </dependency>
 
             <!-- Http请求工具（在模式三的单点注销功能下用到，如不需要可以注释掉） -->
             <dependency>
                 <groupId>com.dtflys.forest</groupId>
                 <artifactId>forest-spring-boot-starter</artifactId>
-                <version>1.5.26</version>
+                <version>${forest.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

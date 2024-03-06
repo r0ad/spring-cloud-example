@@ -2,12 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- Maven 项目的根节点 -->
     <modelVersion>4.0.0</modelVersion>
+    <!-- Maven 项目的groupId，在 Maven 仓库中，groupId 必须是唯一的 -->
     <groupId>io.rainforest</groupId>
+    <!-- Maven 项目的 artifactId，可以包含多个模块 -->
     <artifactId>banana</artifactId>
+    <!-- Maven 项目的版本号 -->
     <version>1.0</version>
+    <!-- Maven 项目的打包方式，这里是 pom -->
     <packaging>pom</packaging>
 
+    <!-- Maven 项目的模块列表 -->
     <modules>
         <module>banana-gateway</module>
         <module>banana-config</module>
@@ -22,19 +28,27 @@
         <module>banana-gateway-sso</module>
     </modules>
 
+    <!-- Maven 项目的属性列表 -->
     <properties>
+        <!-- Maven 编译器的 source 版本 -->
         <maven.compiler.source>17</maven.compiler.source>
+        <!-- Maven 编译器的 target 版本 -->
         <maven.compiler.target>17</maven.compiler.target>
+        <!-- 项目构建的源编码 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Spring Boot 的版本 -->
         <spring-boot.version>3.2.3</spring-boot.version>
+        <!-- Spring Cloud 的版本 -->
         <spring-cloud.version>2023.0.0</spring-cloud.version>
+        <!-- Spring Cloud Alibaba 的版本 -->
         <spring-cloud-alibaba.version>2022.0.0.0</spring-cloud-alibaba.version>
     </properties>
 
-
+    <!-- Maven 项目的依赖管理 -->
     <dependencyManagement>
+        <!-- Maven 项目的依赖列表 -->
         <dependencies>
-            <!--banana 公共版本定义-->
+            <!-- banana 公共版本定义 -->
             <dependency>
                 <groupId>io.rainforest</groupId>
                 <artifactId>banana-common-bom</artifactId>
@@ -42,7 +56,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- spring boot 依赖 -->
+            <!-- Spring Boot 依赖 -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -50,7 +64,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- spring cloud 依赖 -->
+            <!-- Spring Cloud 依赖 -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -58,7 +72,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- spring cloud alibaba 依赖 -->
+            <!-- Spring Cloud Alibaba 依赖 -->
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
@@ -69,7 +83,9 @@
         </dependencies>
     </dependencyManagement>
 
+    <!-- Maven 项目的仓库列表 -->
     <repositories>
+        <!-- Maven 中央仓库的配置 -->
         <repository>
             <id>central</id>
             <name>Central Repository</name>
@@ -81,27 +97,39 @@
         </repository>
     </repositories>
 
+    <!-- Maven 项目的构建配置 -->
     <build>
+        <!-- Maven 项目构建的最终名称 -->
         <finalName>${project.name}</finalName>
+        <!-- Maven 项目的资源配置 -->
         <resources>
+            <!-- 资源文件所在的目录 -->
             <resource>
                 <directory>src/main/resources</directory>
+                <!-- 对资源文件进行过滤 -->
                 <filtering>true</filtering>
             </resource>
         </resources>
+        <!-- Maven 项目的插件管理 -->
         <pluginManagement>
+            <!-- Maven 项目的插件列表 -->
             <plugins>
+                <!-- Spring Boot Maven 插件的配置 -->
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <version>${spring-boot.version}</version>
                     <configuration>
+                        <!-- 项目构建的最终名称 -->
                         <finalName>${project.build.finalName}</finalName>
+                        <!-- 启用 Spring Boot 的分层 -->
                         <layers>
                             <enabled>true</enabled>
                         </layers>
                     </configuration>
+                    <!-- Maven 插件的执行配置 -->
                     <executions>
+                        <!-- Maven 插件的执行目标 -->
                         <execution>
                             <goals>
                                 <goal>repackage</goal>
@@ -111,8 +139,5 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-
     </build>
-
-
 </project>
